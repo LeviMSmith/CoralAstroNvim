@@ -5,8 +5,9 @@ return {
     opts = {
       mappings = {
         n = {
-          ["<Leader>Lh"] = { "<cmd>lua require('helper.helper').insert_header_guard()<CR>", desc = "Create header guard" },
-          ["<Leader>L"] = { name = "Levi's commands" },
+          ["<Leader>jh"] = { "<cmd>lua require('helper.helper').insert_header_guard()<CR>", desc = "Create header guard" },
+          ["<Leader>j1"] = { "<cmd>lua require('helper.helper').insert_h1()<CR>", desc = "Create big section header" },
+          ["<Leader>j"] = { name = "Levi's commands" },
         }
       }
     }
